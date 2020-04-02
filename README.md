@@ -33,6 +33,10 @@ To run, follow the instruction bellow:
 
 - `pip3 install matplotlib`
 
+- `pip3 install biopython`
+
+- `pip3 install pyfastx`
+
 
 
 
