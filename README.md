@@ -1,7 +1,6 @@
-## nCovid-genome-sequencing-insights
+## Genome Sequencing Insights
 
-This repository was created with the intention to get some initial insights about the nCovid genome sequencing. Dataset were taken from two databases: gisaid and NCBI
-
+This repository was created with the intention to get some insights on genome sequencing data. 
 
 To run, follow the instruction bellow:
 
