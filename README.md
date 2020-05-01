@@ -36,6 +36,8 @@ To run, follow the instruction bellow:
 
 - `pip3 install pyfastx`
 
+- `pip3 install dna_features_viewer`
+
 
 
 
