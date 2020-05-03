@@ -1,4 +1,4 @@
-## Genome Sequencing Insights
+## InfoGenSeq: Getting Genome Sequencing Insights
 
 This repository was created with the intention to get some insights on genome sequencing data. 
 
