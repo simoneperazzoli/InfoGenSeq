@@ -24,7 +24,7 @@ To run, follow the instruction bellow:
 
 - `jupyter notebook` (running)
 
-- `deactivate` ( to exit)
+- `deactivate` (to deactivate venv)
 
 *3) Installing libraries* 
 
