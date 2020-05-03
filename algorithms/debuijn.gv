@@ -1,0 +1,14 @@
+// De bruijin graph
+digraph {
+	GT
+	CG
+	GC
+	TC
+	AC
+	AC -> CG
+	CG -> GC
+	GC -> CG
+	CG -> GT
+	GT -> TC
+	TC -> CG
+}

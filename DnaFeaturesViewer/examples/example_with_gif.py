@@ -10,9 +10,13 @@ import matplotlib.pyplot as plt
 from dna_features_viewer import BiopythonTranslator, CircularGraphicRecord
 
 # DOWNLOAD THE PLASMID's RECORD FROM NCBI
-
+"""
+NZ_ASJY01000841.1 - Comparative genome analysis of ciprofloxacin-resistant P. aeruginosa 
+reveals genes within newly identified high variability
+regions associated with drug resistance development
+"""
 handle = Entrez.efetch(
-    db="nucleotide", id=1473096477, rettype="gb", retmode="text"
+    db="nucleotide", id='NZ_ASJY01000841.1', rettype="gb", retmode="text"
 )
 record = SeqIO.read(handle, "genbank")
 
@@ -43,7 +47,7 @@ duration = 5
 def make_frame(t):
     top_nucleotide_index = t * graphic_record.sequence_length / duration
     graphic_record.top_position = top_nucleotide_index
-    ax, _ = graphic_record.plot(figure_width=8, figure_height=11)
+    ax, _ = graphic_record.plot(figure_width=12, figure_height=15)
     ax.set_ylim(top=2)
     np_image = mplfig_to_npimage(ax.figure)
     plt.close(ax.figure)

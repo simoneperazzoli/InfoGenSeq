@@ -22,7 +22,7 @@ def plot_local_gc_content(record, window_size, ax):
     ax.set_ylabel("GC(%)")
 
 
-record = SeqIO.read("sequence-covid.gb", "genbank")
+record = SeqIO.read("pseudomonas-sequence.gb", "genbank")
 translator = BiopythonTranslator()
 graphic_record = translator.translate_record(record)
 
@@ -33,4 +33,4 @@ graphic_record.plot(ax=ax1, with_ruler=False, strand_in_label_threshold=4)
 plot_local_gc_content(record, window_size=50, ax=ax2)
 
 fig.tight_layout()  # Resize the figure to the right height
-fig.savefig("with_gc_plot-covid.png")
+fig.savefig("with_gc_plot-pseudomonas.png")
